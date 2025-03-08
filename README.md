@@ -25,3 +25,13 @@ A CRUD-based RESTful API for managing a product inventory. Built with **Node.js*
 ---
 
 ## ** Do not forget to update your own MONGODB URI inside the '.env' file.
+
+## API Endpoints
+
+| HTTP Method | Endpoint               | Description                     |
+|-------------|------------------------|---------------------------------|
+| `POST`      | `/api/products`        | Add a new product              |
+| `GET`       | `/api/products`        | Get all products               |
+| `GET`       | `/api/products/:id`    | Get a specific product by ID   |
+| `PUT`       | `/api/products/:id`    | Update a product by ID         |
+| `DELETE`    | `/api/products/:id`    | Delete a product by ID         |
